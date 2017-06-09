@@ -2,6 +2,9 @@
 
 >Very Basic Sass(SCSS) boilerplate.
 
+*Updated 6/9/2017 - Add gulp-size to view file size of compiled CSS*
+
+
 ### Prerequisites
 * node
 * npm
