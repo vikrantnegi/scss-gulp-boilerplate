@@ -2,7 +2,7 @@
 
 >Very Basic Sass(SCSS) boilerplate.
 
-*Updated 6/9/2017 - Add sass source maps*
+*Updated 7/4/2017 - Add sass source maps*
 
 
 ### Prerequisites
