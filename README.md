@@ -2,7 +2,7 @@
 
 >Very Basic Sass(SCSS) boilerplate.
 
-*Updated 6/9/2017 - Add gulp-size to view file size of compiled CSS*
+*Updated 6/9/2017 - Add sass source maps*
 
 
 ### Prerequisites
