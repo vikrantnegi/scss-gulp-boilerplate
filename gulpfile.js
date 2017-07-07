@@ -15,7 +15,6 @@ gulp.task('default', function () {
             cascade: false
         }))
         .pipe(sourcemaps.write('.'))
-
         .pipe(gulp.dest('./css'));
 });
 

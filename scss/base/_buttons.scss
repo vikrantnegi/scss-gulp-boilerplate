@@ -1,0 +1,31 @@
+/* Buttons
+* ===============
+*
+* Place all your buttons declarations here */
+
+.btn-theme {
+  display: inline-block;
+  line-height: 1;
+  border: $button-border-width $button-border-style $button-border-color;
+  border-radius: $button-border-radius;
+  background: $button-background;
+  color: $button-color;
+  font-weight: $button-font-weight;
+  font-family: $button-font-family;
+  font-size: 20px;
+  padding: .75rem 1.25rem;
+  margin: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: darken($button-background, 10%);
+    border-color: darken($button-background, 10%);
+  }
+}
