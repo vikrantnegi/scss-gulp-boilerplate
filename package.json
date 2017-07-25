@@ -11,7 +11,11 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-sass": "^3.0.0",
     "gulp-sourcemaps": "^2.6.0"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11"
   }
 }
