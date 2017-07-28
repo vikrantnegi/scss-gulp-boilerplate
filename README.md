@@ -1,4 +1,4 @@
-# Wrdpress Instructions
+# Wordpress Instructions
 
 ### Replace the gulp file in master repo
 
