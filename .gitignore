@@ -46,3 +46,7 @@ node_modules/
 # bower packages
 bower_components/
 
+
+# compiles css
+style.css
+style.css.map
