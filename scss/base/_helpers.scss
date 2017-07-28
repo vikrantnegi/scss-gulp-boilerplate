@@ -13,7 +13,9 @@
   clear: both;
 }
 
-// Text alignment
+
+/* Text alignment*/
+
 .text-left {
   text-align: left;
 }
@@ -31,14 +33,14 @@
 }
 
 .error {
-  border: 3px solid $error-color !important;
+  border: 3px solid $brand-danger !important;
 }
 
 .screen-reader-text {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
   -webkit-clip-path: inset(50%) !important;
-          clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
   height: 1px !important;
   overflow: hidden !important;
   padding: 0 !important;

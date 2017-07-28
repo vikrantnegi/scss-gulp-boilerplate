@@ -3,56 +3,83 @@
 *
 * All variables and most of the configuration is defined on this page. */
 
-$background      : #9f9f9f;
-$primary-color   : #f47820;
-$text-color      : #4c4c4d;
-$background-color: #fff;
-//$alternate-color : #ffffff;
-$link-color      : #ffffff;
-$link-hover-color: #ffffff;
-$error-color     : #D2232A;
+/*== Colors*/
+/**/
+/*## Gray and brand colors for use across theme.*/
+$orange       : #f47820;
+$gray-base    : #4c4c4d;
+
+$primary-color: $orange;
+$brand-success: #5cb85c;
+$brand-info   : #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger : #d9534f;
+
+
+/*== Scaffolding*/
+/**/
+/*## Settings for some of the most global styles.*/
+
+/*** Background color for `<body>`.*/
+$body-bg         : #fff;
+/*** Global text color on `<body>`.*/
+$text-color      : $gray-base;
+/*** Global textual link color.*/
+$link-color      : $primary-color;
+/*** Link hover color set via `darken()` function.*/
+$link-hover-color: darken($link-color, 15%);
+
 
 $font-path-url: "fonts/";
 $img-path-url: "/wp-content/themes/mediafuel/img/";
 
 
-//==Typography //
-//## Font, line-height, and color for body text, headings, and more.
+
+
+/*==Typography //*/
+/*## Font, line-height, and color for body text, headings, and more.*/
 $font-family-primary  : 'Avenir', sans-serif;
 $font-family-secondary: 'Georgia', serif;
 $font-size-base       : 14px;
-$line-height-base     : 1.428571429; // 20/14
+$line-height-base     : 1.428571429; /* 20/14*/
 $font-weight-base     : 400;
 
-$font-size-h1: 3.6rem;
-$font-size-h2: 3.0rem;
-$font-size-h3: 2.4rem;
-$font-size-h4: 1.8rem;
-$font-size-h5: 1.4rem;
-$font-size-h6: 1.2rem;
+$font-size-h1         : 3.6rem;
+$font-size-h2         : 3.0rem;
+$font-size-h3         : 2.4rem;
+$font-size-h4         : 1.8rem;
+$font-size-h5         : 1.4rem;
+$font-size-h6         : 1.2rem;
 
-//** By default, this inherits from the `<body>`.
+/*** By default, this inherits from the `<body>`.*/
 $headings-font-family: inherit !default;
 $headings-font-weight: 900 !default;
 $headings-line-height: 1.1 !default;
 $headings-color      : inherit !default;
 
 /* spacing */
-$padding: 2rem;
-$margins: 1.5rem;
+$padding        : 2rem;
+$margins        : 1.5rem;
 $content-padding: 60px 0;
 $content-padding-mobile: 30px 0;
 
-/* Buttons */
-$button-background      : $primary-color;
-$button-background-hover: darken($button-background, 10%);
-$button-color           : #ffffff;
-$button-font-weight     : 500;
-$button-font-family     : $font-family-primary;
-$button-font-size       : 30px;
-$button-border-width    : 1px;
-$button-border-style    : solid;
-$button-border-color    : $button-background;
-$button-border-radius   : 0;
+/*== Buttons*/
+/**/
+/*## For each of Theme buttons, define text, background and border color.*/
+$button-font-weight    : normal;
+
+$button-font-family    : $font-family-primary;
+$button-font-size      : 14px;
+$button-base-vertical  : 6px;
+$button-base-horizontal: 12px;
+
+$btn-theme-color       : #fff;
+$btn-theme-bg          : $primary-color;
+$btn-theme-border      : darken($btn-theme-bg, 5%);
 
 
+
+/*== Grid*/
+/**/
+/*## If using flexbox grid - use $grid-gutter variable*/
+$grid-gutter: 15px;
