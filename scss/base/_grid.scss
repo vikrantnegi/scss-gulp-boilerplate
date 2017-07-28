@@ -7,6 +7,12 @@
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: $grid-gutter;
-  margin-left: $grid-gutter;
+  margin-left:  ceil(($gutter / -2));
+  margin-right: floor(($gutter / -2));
+}
+
+.col {
+  min-height: 1px;
+  padding-left:  ($gutter / 2);
+  padding-right: ($gutter / 2);
 }

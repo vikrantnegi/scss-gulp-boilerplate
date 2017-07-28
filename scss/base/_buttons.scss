@@ -17,6 +17,7 @@
   text-decoration: none;
   line-height: 1;
   position: relative;
+  border-radius: $btn-border-radius-base;
   padding: $button-base-vertical $button-base-horizontal;
   font-family: $button-font-family;
   font-size: $button-font-size;
@@ -41,6 +42,10 @@
   }
 }
 
+
+
+// Alternate buttons
+// --------------------------------------------------
 .btn-theme {
   color: $btn-theme-color;
   &:hover {

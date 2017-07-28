@@ -28,16 +28,22 @@ $text-color      : $gray-base;
 $link-color      : $primary-color;
 /*** Link hover color set via `darken()` function.*/
 $link-hover-color: darken($link-color, 15%);
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
 
 
+
+//== Paths Paths
+//
+//## Fonts and imaage paths
 $font-path-url: "fonts/";
 $img-path-url: "/wp-content/themes/mediafuel/img/";
 
 
 
-
-/*==Typography //*/
-/*## Font, line-height, and color for body text, headings, and more.*/
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
 $font-family-primary  : 'Avenir', sans-serif;
 $font-family-secondary: 'Georgia', serif;
 $font-size-base       : 14px;
@@ -63,6 +69,8 @@ $margins        : 1.5rem;
 $content-padding: 60px 0;
 $content-padding-mobile: 30px 0;
 
+
+
 /*== Buttons*/
 /**/
 /*## For each of Theme buttons, define text, background and border color.*/
@@ -78,8 +86,14 @@ $btn-theme-bg          : $primary-color;
 $btn-theme-border      : darken($btn-theme-bg, 5%);
 
 
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base : 0 !default;
 
-/*== Grid*/
-/**/
-/*## If using flexbox grid - use $grid-gutter variable*/
-$grid-gutter: 15px;
+
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Padding between columns. Gets divided in half for the left and right.
+$gutter: 30px;

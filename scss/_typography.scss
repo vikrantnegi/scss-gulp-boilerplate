@@ -1,4 +1,8 @@
-/* Typography */
+//
+// Typography
+// --------------------------------------------------
+
+// Body reset
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -20,6 +24,8 @@ body {
   background-color: $body-bg;
 }
 
+
+//Headings
 h1, h2, h3, h4, h5 ,h6 {
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
@@ -33,3 +39,17 @@ h3, .h3 { font-size: $font-size-h3; }
 h4, .h4 { font-size: $font-size-h4; }
 h5, .h5 { font-size: $font-size-h5; }
 h6, .h6 { font-size: $font-size-h6; }
+
+
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
