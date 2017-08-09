@@ -8,6 +8,7 @@
 /*## Gray and brand colors for use across theme.*/
 $orange       : #f47820;
 $gray-base    : #4c4c4d;
+$black        : #000;
 
 $primary-color: $orange;
 $brand-success: #5cb85c;
@@ -97,3 +98,12 @@ $btn-border-radius-base : 0 !default;
 
 //** Padding between columns. Gets divided in half for the left and right.
 $gutter: 30px;
+
+
+
+/*== Overlays*/
+/**/
+/*## Color overlays over images on banner or image grid galleries*/
+$color-image-overlay  : $black;
+$opacity-image-overlay: 0.6;
+
