@@ -48,4 +48,5 @@ bower_components/
 
 # compiles css
 css/**/*.css
+css/**/*.css.map
 
