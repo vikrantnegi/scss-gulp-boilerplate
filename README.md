@@ -18,8 +18,10 @@ cd /path/to/project/this/folder
 npm install
 
 # Start server
-gulp watch
+gulp watch   
 
+#if you don't want to or have gulp installed globally run
+npm start
 ```
 
 ### Quick Links
