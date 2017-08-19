@@ -17,6 +17,7 @@
     "gulp-sourcemaps": "^2.6.0"
   },
   "dependencies": {
-    "graceful-fs": "^4.1.11"
+    "graceful-fs": "^4.1.11",
+    "gulp-clean-css": "^3.7.0"
   }
 }
