@@ -35,6 +35,7 @@ gulp.task('minify-css', () => {
     .pipe(rename({
       suffix: '.min'
     }))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('css/min'));
 });
 
