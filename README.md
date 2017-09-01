@@ -20,9 +20,15 @@ npm install
 # Start server
 gulp watch   
 
+# Start server and also minify the created CSS files
+gulp min or npm run min (if no global gulp)
+
 #if you don't want to or have gulp installed globally run
 npm start
 ```
+
+### Additional commands
+To minify existing CSS files run `gulp minify-css` or `npm run minify-css` if you don't have gulp globally installed.
 
 ### Quick Links
 * [gulp](http://gulpjs.com)
