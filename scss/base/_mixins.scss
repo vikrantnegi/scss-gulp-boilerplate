@@ -8,18 +8,3 @@
 @import 'vendor/scut.scss';
 
 
-@mixin overlay($z-index: null) {
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: $color-image-overlay;
-    opacity: $opacity-image-overlay;
-    @if ($z-index) {
-      z-index: $z-index;
-    }
-  }
-}

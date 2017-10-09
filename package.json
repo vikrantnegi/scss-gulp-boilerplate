@@ -19,6 +19,7 @@
     "gulp-sourcemaps": "^2.6.0"
   },
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
     "graceful-fs": "^4.1.11",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2"
