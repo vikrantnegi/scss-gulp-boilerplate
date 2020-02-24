@@ -6,33 +6,30 @@
 /*== Colors*/
 /**/
 /*## Gray and brand colors for use across theme.*/
-$orange       : #f47820;
-$gray-base    : #4c4c4d;
-$black        : #000;
+$orange: #f47820;
+$gray-base: #4c4c4d;
+$black: #000;
 
 $primary-color: $orange;
 $brand-success: #5cb85c;
-$brand-info   : #5bc0de;
+$brand-info: #5bc0de;
 $brand-warning: #f0ad4e;
-$brand-danger : #d9534f;
-
+$brand-danger: #d9534f;
 
 /*== Scaffolding*/
 /**/
 /*## Settings for some of the most global styles.*/
 
 /*** Background color for `<body>`.*/
-$body-bg         : #fff;
+$body-bg: #fff;
 /*** Global text color on `<body>`.*/
-$text-color      : $gray-base;
+$text-color: $gray-base;
 /*** Global textual link color.*/
-$link-color      : $primary-color;
+$link-color: $primary-color;
 /*** Link hover color set via `darken()` function.*/
 $link-hover-color: darken($link-color, 15%);
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
-
-
 
 //== Paths Paths
 //
@@ -40,57 +37,50 @@ $link-hover-decoration: underline !default;
 $font-path-url: "../fonts";
 $img-path-url: "../imgs";
 
-
-
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-$font-family-primary  : 'Avenir', sans-serif;
-$font-family-secondary: 'Georgia', serif;
-$font-size-base       : 14px;
-$line-height-base     : 1.428571429; /* 20/14*/
-$font-weight-base     : 400;
+$font-family-primary: "Avenir", sans-serif;
+$font-family-secondary: "Georgia", serif;
+$font-size-base: 14px;
+$line-height-base: 1.428571429; /* 20/14*/
+$font-weight-base: 400;
 
-$font-size-h1         : 3.6rem;
-$font-size-h2         : 3.0rem;
-$font-size-h3         : 2.4rem;
-$font-size-h4         : 1.8rem;
-$font-size-h5         : 1.4rem;
-$font-size-h6         : 1.2rem;
+$font-size-h1: 3.6rem;
+$font-size-h2: 3rem;
+$font-size-h3: 2.4rem;
+$font-size-h4: 1.8rem;
+$font-size-h5: 1.4rem;
+$font-size-h6: 1.2rem;
 
 /*** By default, this inherits from the `<body>`.*/
 $headings-font-family: inherit !default;
 $headings-font-weight: 900 !default;
 $headings-line-height: 1.1 !default;
-$headings-color      : inherit !default;
+$headings-color: inherit !default;
 
 /* spacing */
-$padding        : 2rem;
-$margins        : 1.5rem;
+$padding: 2rem;
+$margins: 1.5rem;
 $content-padding: 60px 0;
 $content-padding-mobile: 30px 0;
-
-
 
 /*== Buttons*/
 /**/
 /*## For each of Theme buttons, define text, background and border color.*/
-$button-font-weight    : normal;
+$button-font-weight: normal;
 
-$button-font-family    : $font-family-primary;
-$button-font-size      : 14px;
-$button-base-vertical  : 6px;
+$button-font-family: $font-family-primary;
+$button-font-size: 14px;
+$button-base-vertical: 6px;
 $button-base-horizontal: 12px;
 
-$btn-theme-color       : #fff;
-$btn-theme-bg          : $primary-color;
-$btn-theme-border      : darken($btn-theme-bg, 5%);
-
+$btn-theme-color: #fff;
+$btn-theme-bg: $primary-color;
+$btn-theme-border: darken($btn-theme-bg, 5%);
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base : 0 !default;
-
-
+$btn-border-radius-base: 0 !default;
 
 //== Grid system
 //
@@ -99,11 +89,8 @@ $btn-border-radius-base : 0 !default;
 //** Padding between columns. Gets divided in half for the left and right.
 $gutter: 30px;
 
-
-
 /*== Overlays*/
 /**/
 /*## Color overlays over images on banner or image grid galleries*/
-$color-image-overlay  : $black;
+$color-image-overlay: $black;
 $opacity-image-overlay: 0.6;
-

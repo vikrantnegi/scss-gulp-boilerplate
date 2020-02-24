@@ -25,7 +25,6 @@ function styles() {
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(
       autoprefixer({
-        browsers: ['last 4 versions'],
         cascade: false,
       }),
     )
