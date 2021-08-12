@@ -14,7 +14,7 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0"
   },
